@@ -62,13 +62,6 @@ cd obdcode-lockup
 
 Open `index.html` in your browser.
 
----
-
-## 📸 Screenshots
-![alt text](image.png)
-
----
-
 ##  Future Improvements
 
 * 🏷️ Filter by code category (P, B, C, U)
@@ -101,4 +94,3 @@ Contributions are welcome! Feel free to fork the repo and submit a pull request.
 * Built as part of learning JavaScript and real-world applications
 
 ---
-
