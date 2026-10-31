@@ -48,7 +48,7 @@ async function searchCode() {
   showResult(code, entry);
 }
 
-// Automatically uppercase input and clear the message while typing.
+
 searchInput.addEventListener("input", () => {
   const { selectionStart, selectionEnd } = searchInput;
 
@@ -61,3 +61,4 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
   searchCode();
 });
+
