@@ -6,7 +6,7 @@ A web tool for looking up OBD-II diagnostic trouble codes. Enter a code such as 
 
 ## Live Demo
 
-https://oussama-dalhi.github.io/obd-code-lockup/
+https://obd.oussama-dalhi.dev/
 
 ---
 
