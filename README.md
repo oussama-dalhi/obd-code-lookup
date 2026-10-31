@@ -6,7 +6,7 @@ A web tool for looking up OBD-II diagnostic trouble codes. Enter a code such as 
 
 ## Live Demo
 
-https://oussama-dalhi.github.io/obdcode-lockup/
+https://oussama-dalhi.github.io/obd-code-lockup/
 
 ---
 
@@ -49,9 +49,9 @@ https://oussama-dalhi.github.io/obdcode-lockup/
 
 ```plaintext
 .
+├── .gitignore
 ├── index.html
 ├── README.md
-├── image.png
 ├── data/
 │   └── codes/
 │       ├── B0.json
@@ -63,7 +63,8 @@ https://oussama-dalhi.github.io/obdcode-lockup/
 │       └── U3.json
 └── src/
     ├── assets/
-    │   └── favicon.svg
+    │   ├── favicon.svg
+    │   └── image.png
     ├── css/
     │   └── style.css
     └── js/
@@ -77,8 +78,8 @@ https://oussama-dalhi.github.io/obdcode-lockup/
 ## Getting Started
 
 ```bash
-git clone https://github.com/oussama-dalhi/obdcode-lockup.git
-cd obdcode-lockup
+git clone https://github.com/oussama-dalhi/obd-code-lockup.git
+cd obd-code-lockup
 ```
 
 The app uses ES modules and `fetch`, which browsers block on `file://` URLs, so serve the folder with a local server instead of opening `index.html` directly:
@@ -116,9 +117,7 @@ Each file is an object keyed by code, so a lookup is a single property access:
 
 ## Future Improvements
 
-* Clickable related codes
 * Affected components for each code
-* German translation (the dataset already includes German text)
 * Autocomplete suggestions while typing
 * Support for manufacturer-specific codes
 
@@ -126,18 +125,18 @@ Each file is an object keyed by code, so a lookup is a single property access:
 
 ## Contributing
 
-Contributions are welcome. Fork the repository, create a branch and open a pull request.
+Contributions are welcome. Fork the repository, create a branch and open a PR.
 
 ---
 
 ## Disclaimer
 
-This tool provides general information about OBD-II codes. A code describes a symptom, not a confirmed fault. It does not replace professional vehicle diagnostics, so always check the vehicle's service documentation before replacing parts.
+This tool provides general information about OBD-II codes. A code describes a symptom, not a confirmed diagnosis. 
+It's better to consult a professional mechanic or use a proper diagnostic tool to identify the root cause of a problem.
 
 ---
 
 ## Acknowledgements
 
 * Code data from [OBDex](https://github.com/foerbsnavi/OBDex), released under CC0
-* Font: Montserrat via Google Fonts
-* Built as part of learning JavaScript and building real-world applications
+* Buil as a tool and for learning.
